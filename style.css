@@ -1,0 +1,41 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+#main {
+  height: 100vh;
+  background-color: honeydew;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 40px;
+  background-color: honeydew;
+  text-align: center;
+}
+.container {
+  padding: 70px 50px;
+  width: 450px;
+  background-color: lightgrey;
+  box-shadow: 30px 25px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.index_box {
+  width: 45%;
+}
+input {
+  width: 100px;
+  height: 45px;
+  border-radius: 7px;
+  border: 1px solid #d2d2d2;
+  outline: none;
+  margin-top: 5px;
+  padding: 0px 10px;
+}
